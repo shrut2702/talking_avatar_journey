@@ -1,2 +1,35 @@
+# Virtual environments
 venv/
+.venv/
+
+# Downloaded assets / large artifacts
 artifacts/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+
+# Model weights & checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+*.h5
+*.safetensors
+*.tflite
+checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
